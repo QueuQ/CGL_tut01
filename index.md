@@ -9,7 +9,7 @@ The length of this tutorial will be 2 hours, including a 100 minutes presentatio
 ## Introduction
 Real-world graphs are often continuously growing or evolving. For example, new types of papers may be constantly added to a citation network, and a document classifier is expected to continuously adapt and be capable of classifying the new types of papers. In drug design research, molecules with new types of properties may be continuously encountered, and a molecule property predictor has to keep learning the new molecule properties. Existing graph learning models are good at learning new patterns/tasks. However, the high plasticity also brings the catastrophic forgetting problem, which refers to the drastic performance drop on previously learned tasks after the model has learned new tasks. To this end, CGL is attracting increasingly more attention recently, and therefore will be thoroughly discussed in this tutorial. 
 
-Due to the complex forms of graph data from different areas, we will first introduce the formal setting of CGL. Specifically, we will explain the node-level tasks and graph-level tasks under both task-incremental (task-IL) and class-incremental (class-IL) scenarios. Then, based on these settings, we will introduce the key challenges of the CGL, as well as the difference compared to traditional continual learning on independent data (\textit{e.g.} images). Next, we will introduce the existing methods, including both the methods specially developed for CGL, and the traditional continual learning methods that are applicable to CGL. Finally, after analyzing the advantages and disadvantages of the existing methods, we will point out the unresolved challenges, as well as future research directions.
+Due to the complex forms of graph data from different areas, we will first introduce the formal setting of CGL. Specifically, we will explain the node-level tasks and graph-level tasks under both task-incremental (task-IL) and class-incremental (class-IL) scenarios. Then, based on these settings, we will introduce the key challenges of the CGL, as well as the difference compared to traditional continual learning on independent data (e.g. images). Next, we will introduce the existing methods, including both the methods specially developed for CGL, and the traditional continual learning methods that are applicable to CGL. Finally, after analyzing the advantages and disadvantages of the existing methods, we will point out the unresolved challenges, as well as future research directions.
 
 ## Outline
 * Formulation of the CGL Tasks & Challenges
@@ -21,7 +21,7 @@ Due to the complex forms of graph data from different areas, we will first intro
 
 ## Presenters
 
-* Xikun Zhang is Ph.D. student at the School of Computer Science in The University of Sydney. His research interests mainly include applying deep learning to tackle graph related problems, \textit{e.g.} CGL. His works have been published in top conferences and journals, such as NeurIPS, TPAMI, ICDM, CVPR, ECCV, and TNNLS.
+* Xikun Zhang is Ph.D. student at the School of Computer Science in The University of Sydney. His research interests mainly include applying deep learning to tackle graph related problems, e.g. CGL. His works have been published in top conferences and journals, such as NeurIPS, TPAMI, ICDM, CVPR, ECCV, and TNNLS.
 Email: xzha0505@uni.sydney.edu.au
 
 
